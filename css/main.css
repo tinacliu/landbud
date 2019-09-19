@@ -1,0 +1,15 @@
+
+
+:root {
+  --blue: rgb(60, 120, 50);
+  --dark-gray: #1C1C1C;
+  --gray: #202020;
+}
+
+
+body {
+  background-color: #F6F5F3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11pt;
+  color: var(--dark-gray);
+}
