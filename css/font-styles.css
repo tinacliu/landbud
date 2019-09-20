@@ -1,0 +1,29 @@
+/*CSS for font sytles*/
+
+h1, h2 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h3, h4 {
+  font-family: 'Open Sans', serif;
+}
+
+h1, h3 {
+  font-size: 32pt;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+
+
+.highlight {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--op-beige) 65%);
+}
+
+.lighter {
+  font-weight: 300;
+}
+
+

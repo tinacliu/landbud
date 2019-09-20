@@ -1,15 +1,66 @@
-
+@import "font-styles.css";
 
 :root {
-  --blue: rgb(60, 120, 50);
-  --dark-gray: #1C1C1C;
+  --op-beige: rgba(237, 227, 218, 0.7);
+  --beige: #D9C4B1;
+  --green: #009384;
+  --dark-gray: #31394D;
   --gray: #202020;
+  --light-gray: #E5E5E5;
+  --navy: #17415A;
+  --light-beige: #F9F4EF;;
 }
 
 
 body {
-  background-color: #F6F5F3;
-  font-family: 'Roboto', sans-serif;
-  font-size: 11pt;
+  background-color: var(--light-beige);
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
   color: var(--dark-gray);
 }
+
+.white {
+  background-color: white;
+  padding: 40px;
+}
+
+/*navbar*/
+
+.navbar-le {
+  justify-content: space-between;
+  background-color: var(--light-beige);
+}
+
+.navbar-le .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-le .nav-link {
+/*  font-family: 'Open Sans', serif;*/
+  font-size: 16px;
+  color: var(--navy);
+}
+
+.navbar-le .navbar-brand img {
+  width: 200px;
+}
+
+
+/*button*/
+
+.button-dark {
+/*  font-family: 'Open Sans', serif;*/
+  background-color: var(--navy);
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+}
+
+.button-dark:hover {
+/*  font-family: 'Open Sans', serif;*/
+  background-color: var(--dark-gray);
+  color: white;
+  text-decoration: none;
+}
+
