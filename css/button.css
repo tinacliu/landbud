@@ -1,0 +1,36 @@
+
+/*button*/
+
+.button-dark {
+/*  font-family: 'Open Sans', serif;*/
+  background-color: var(--navy);
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+}
+
+.button-dark:hover {
+/*  font-family: 'Open Sans', serif;*/
+  background-color: var(--dark-gray);
+  color: white;
+  text-decoration: none;
+}
+
+
+.button-green {
+  font-family: 'Open Sans', serif;
+  background-color: var(--green);
+  color: white !important;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 12px 24px;
+}
+
+.button-green:hover {
+  font-family: 'Open Sans', serif;
+  background-color: var(--dark-gray);
+  color: white;
+  text-decoration: none;
+}
+

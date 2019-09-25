@@ -4,19 +4,37 @@ h1, h2 {
   font-family: 'Cormorant Garamond', serif;
 }
 
-h3, h4 {
+h3, h6 {
   font-family: 'Open Sans', serif;
 }
 
 h1, h3 {
-  font-size: 32pt;
+  font-size: 40%vw;
 }
 
-h2 {
-  font-size: 24pt;
+h2, h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+  color: var(--navy);
+}
+
+h6 {
+  font-size: 20px;
 }
 
 
+.list-item p {
+  margin-top: 12px;
+  font-size: 15px;
+  color: var(--gray);
+}
 
 .highlight {
   background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--op-beige) 65%);
@@ -26,4 +44,12 @@ h2 {
   font-weight: 300;
 }
 
+.underline {
+  background-color:  var(--beige);
+  width: 160px;
+  height: 2px;
+}
 
+.gray {
+  color: var(--mid-gray);
+}

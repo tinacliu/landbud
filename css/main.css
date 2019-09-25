@@ -1,11 +1,15 @@
+@import "button.css";
 @import "font-styles.css";
+@import "lists.css";
+@import "navbar.css";
 
 :root {
   --op-beige: rgba(237, 227, 218, 0.7);
   --beige: #D9C4B1;
   --green: #009384;
   --dark-gray: #31394D;
-  --gray: #202020;
+  --mid-gray: #525252;
+  --gray: #686868;
   --light-gray: #E5E5E5;
   --navy: #17415A;
   --light-beige: #F9F4EF;;
@@ -15,52 +19,104 @@
 body {
   background-color: var(--light-beige);
   font-family: 'Lato', sans-serif;
-  font-size: 14pt;
+  font-size: 16px;
   color: var(--dark-gray);
+  line-height: 1.6;
 }
 
 .white {
   background-color: white;
-  padding: 40px;
 }
 
-/*navbar*/
-
-.navbar-le {
-  justify-content: space-between;
-  background-color: var(--light-beige);
+.white_paper {
+  background-color: white;
+  margin: 40px 120px;
+  padding: 60px 0px;
 }
 
-.navbar-le .navbar-collapse {
-  flex-grow: 0;
+.section {
+  padding: 60px 120px;
 }
 
-.navbar-le .nav-link {
-/*  font-family: 'Open Sans', serif;*/
-  font-size: 16px;
-  color: var(--navy);
+.cards_grid {
+  display: grid;
+  padding: 24px;
+  grid-gap: 32px;
+  grid-template-columns: 1fr 1fr;
 }
 
-.navbar-le .navbar-brand img {
-  width: 200px;
+@media(max-width: 992px) {
+  .cards_grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 
-/*button*/
+.heroshot {
+  width: 100%;
+}
 
-.button-dark {
-/*  font-family: 'Open Sans', serif;*/
+.rectangle_beige {
+  background-color: var(--op-beige);
+  margin-left: 80px;
+  position: relative;
+  width: 320px;
+  height: 120px
+}
+
+.overlay_text {
+  position: absolute;
+  width: 280px;
+  bottom: -24px;
+  right: 24px;
+}
+
+
+
+.rectangle_navy {
   background-color: var(--navy);
   color: white;
-  font-size: 16px;
+  margin: auto;
   border-radius: 4px;
-  padding: 8px 24px;
+  padding: 40px;
+  /*width: 440px;*/
+  /*height: 180px;*/
 }
 
-.button-dark:hover {
-/*  font-family: 'Open Sans', serif;*/
-  background-color: var(--dark-gray);
-  color: white;
-  text-decoration: none;
+.rectangle_navy p {
+  font-weight: 300;
+  color: #D6DEE3;
+  line-height: 1.7;
 }
+
+
+@media(max-width: 768px) {
+  .section {
+    padding: 20px;
+  }
+
+  .rectangle_beige {
+    margin-left: 0px;
+  }
+}
+
+
+@media(max-width: 480px) {
+  .white_paper {
+  margin: 8px 16px;
+  }
+  .rectangle_navy {
+    width: 240px;
+    padding: 16px 24px;
+  }
+
+  .rectangle_beige {
+    width: 280px;
+  }
+
+  .overlay_text {
+    width: 280px;
+  }
+}
+
 
