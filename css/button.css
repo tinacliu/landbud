@@ -2,10 +2,10 @@
 /*button*/
 
 .button-dark {
-/*  font-family: 'Open Sans', serif;*/
+  font-family: 'Open Sans', serif;
   background-color: var(--navy);
-  color: white;
-  font-size: 16px;
+  color: white !important;
+  font-size: 15px;
   border-radius: 4px;
   padding: 8px 24px;
 }
@@ -24,7 +24,7 @@
   color: white !important;
   font-size: 16px;
   border-radius: 4px;
-  padding: 12px 24px;
+  padding: 0.75rem 1.5rem;
 }
 
 .button-green:hover {

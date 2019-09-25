@@ -1,5 +1,6 @@
 @import "button.css";
 @import "font-styles.css";
+@import "footer.css";
 @import "lists.css";
 @import "navbar.css";
 
@@ -36,6 +37,10 @@ body {
 
 .section {
   padding: 60px 120px;
+}
+
+.section-lg {
+  padding: 200px 120px;
 }
 
 .cards_grid {
