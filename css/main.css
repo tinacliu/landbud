@@ -132,7 +132,11 @@ body {
 
 @media(max-width: 480px) {
   .white_paper {
-  margin: 8px 16px;
+    margin: 8px 16px;
+  }
+
+  .section-lg {
+    padding: 100px 60px;
   }
 
   .cards_grid {
