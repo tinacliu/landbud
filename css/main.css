@@ -69,7 +69,7 @@ body {
 
 .heroshot {
   width: 100%;
-  border: solid 2px var(--light-beige);
+  /*border: solid 2px var(--light-beige);*/
 }
 
 .rectangle_beige {
